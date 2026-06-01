@@ -12,7 +12,9 @@ REST API integration using Axios
 Beginner-friendly full stack project
 Clean and simple UI
 
+# HomePageImage
 ![alt text](image.png)
+
 
 # Tech Stack 🛠️
 

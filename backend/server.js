@@ -1,7 +1,5 @@
 import express from 'express';
-import cors from "cors";
 
-app.use(cors());
 
 const app=express();
 
@@ -14,28 +12,28 @@ app.get('/api/jokes', (req, res) => {
     const jokes = [
     {
         id: 1,
-        title: "Programmer's Diet",
-        content: "A programmer's diet: Coffee, coffee, and a little more coffee."
+        title: "Code Review",
+        content: "Code reviews are where optimism meets reality."
     },
     {
         id: 2,
-        title: "Bug Fix",
-        content: "I fixed a bug in my code. Unfortunately, I created three new features."
+        title: "Technical Debt",
+        content: "Technical debt is like a credit card: convenient today, expensive tomorrow."
     },
     {
         id: 3,
-        title: "JavaScript Truth",
-        content: "JavaScript is weird. You think you understand it until [] + {} happens."
+        title: "Production Bug",
+        content: "The most dangerous bugs are the ones that pass all tests and still reach production."
     },
     {
         id: 4,
-        title: "Debugging",
-        content: "Debugging is like being a detective in a crime movie where you are also the criminal."
+        title: "System Design",
+        content: "Every system looks scalable until real users arrive."
     },
     {
         id: 5,
-        title: "404 Love",
-        content: "My love life is like a 404 error: The page you're looking for cannot be found."
+        title: "Clean Code",
+        content: "Clean code is code that your future self can read without questioning past life choices."
     }
     ];
     res.send(jokes);
